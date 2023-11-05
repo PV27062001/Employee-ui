@@ -1,0 +1,116 @@
+/* Calendar Container */
+.calendar-container {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* Calendar Header */
+.calendar-header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+}
+
+/* Calendar Navigation Buttons */
+.prev-btn, .next-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+/* Calendar Days */
+.calendar-days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 10px;
+    margin-top: 20px;
+}
+
+/* Calendar Day */
+.calendar-day {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Highlight Selected Day */
+.selected-day {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Hover Effect on Days */
+.calendar-day:hover {
+    background-color: #f2f2f2;
+}
+
+/* Today's Date */
+.today {
+    font-weight: bold;
+}
+
+/* Disabled Days (e.g., Past Dates) */
+.disabled-day {
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+
+
+/* ////////////    form.cssssss      ////////////////////// */
+
+/* Calender.css */
+
+/* Style for form container */
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style for form fields */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Style for input fields */
+  .input-field {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Style for calendar container */
+  .calendar-container {
+    margin-bottom: 20px;
+  }
+  
+  /* Style for submit button */
+  .submit-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049;
+  }
+      
