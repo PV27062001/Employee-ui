@@ -16,6 +16,9 @@ export function Navbar() {
             <li className="nav-item">
               <a className="nav-link" href="/addEmployee">Add Employee</a>
             </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/listEmployee">List EMployee</a>
+            </li>
             {/* Add more navigation items as needed */}
           </ul>
         </div>

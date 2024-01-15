@@ -1,0 +1,23 @@
+.done-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tick-icon {
+    font-size: 36px;
+    color: #fff; 
+  }
+  
+  .success-message {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
